@@ -1,0 +1,61 @@
+body {
+    background-color: #d6e1f0;
+
+}
+
+img {
+    width: 85%
+}
+
+main {
+
+
+    margin: 15% 45%;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.9em;
+}
+
+
+.QRcode {
+    margin-top: 2%;
+    width: 85%;
+
+}
+
+h1 {
+    font-size: 103%;
+
+}
+
+h2 {
+    font-size: 93%;
+    font-weight: 100;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 0.938em;
+}
+
+@media (max-width: 800px) {
+    img {
+        max-width: 100%;
+    }
+
+    main {
+        margin: 15% auto;
+    }
+
+    h1 {
+        font-size: 153%;
+
+    }
+
+    h2 {
+        font-size: 123%;
+        font-weight: 100;
+
+    }
+}
